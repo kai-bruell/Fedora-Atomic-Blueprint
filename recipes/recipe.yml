@@ -28,8 +28,13 @@ modules:
         - chezmoi
         - neovim
         - tmux
-        # - micro
-        # - starship
+        # screenshots + OCR
+        - grim
+        - slurp
+        - wl-clipboard
+        - tesseract
+        - tesseract-langpack-deu
+        - tesseract-langpack-eng
     remove:
       packages:
         # removing firefox RPM in favor of the flatpak (faster security updates)
