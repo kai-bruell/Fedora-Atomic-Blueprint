@@ -27,6 +27,7 @@ modules:
         - tealdeer
         - chezmoi
         - neovim
+        - tmux
         # - micro
         # - starship
     remove:
