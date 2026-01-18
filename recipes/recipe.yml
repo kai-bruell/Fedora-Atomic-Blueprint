@@ -26,6 +26,7 @@ modules:
         - gh
         - tealdeer
         - chezmoi
+        - neovim
         # - micro
         # - starship
     remove:
