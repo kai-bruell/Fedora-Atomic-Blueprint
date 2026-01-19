@@ -28,6 +28,7 @@ modules:
         - chezmoi
         - neovim
         - tmux
+        - zsh
         # screenshots + OCR
         - grim
         - slurp
