@@ -42,6 +42,10 @@ modules:
         - firefox
         - firefox-langpacks
 
+  - type: script
+    scripts:
+      - install-icloudpd.sh
+
   - type: default-flatpaks
     # Two configurations: one for system-wide apps, one to enable user-scope Flathub
     configurations:
