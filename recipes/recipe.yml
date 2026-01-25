@@ -58,6 +58,7 @@ modules:
         install:
           - org.mozilla.firefox
           - org.gnome.Loupe
+          - org.gimp.GIMP
       # user = ~/.local/share/flatpak, per-user apps, user can install without root
       - scope: user
         # no install list here = just enables Flathub repo for user-installed apps
