@@ -36,6 +36,9 @@ modules:
         - tesseract
         - tesseract-langpack-deu
         - tesseract-langpack-eng
+        # scanning
+        - simple-scan
+        - sane-backends-drivers-scanners
     remove:
       packages:
         # removing firefox RPM in favor of the flatpak (faster security updates)
