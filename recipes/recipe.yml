@@ -23,6 +23,8 @@ modules:
     #     - atim/starship
     install:
       packages:
+        # container dev environments
+        - distrobox
         - gh
         - tealdeer
         - chezmoi
