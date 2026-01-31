@@ -35,6 +35,7 @@ modules:
         - tesseract
         - tesseract-langpack-deu
         - tesseract-langpack-eng
+        - nmap
         # Node.js for user-space npm packages (Claude Code etc.)
         - nodejs
         - npm
