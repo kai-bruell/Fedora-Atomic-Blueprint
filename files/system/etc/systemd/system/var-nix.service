@@ -1,0 +1,12 @@
+[Unit]
+Description=Create /var/nix directory
+DefaultDependencies=no
+Before=nix.mount
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/mkdir -p /var/nix
+RemainAfterExit=yes
+
+[Install]
+WantedBy=nix.mount
