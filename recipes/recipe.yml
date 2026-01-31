@@ -35,6 +35,9 @@ modules:
         - tesseract
         - tesseract-langpack-deu
         - tesseract-langpack-eng
+        # Node.js for user-space npm packages (Claude Code etc.)
+        - nodejs
+        - npm
         # scanning
         - simple-scan
         - sane-backends-drivers-scanners

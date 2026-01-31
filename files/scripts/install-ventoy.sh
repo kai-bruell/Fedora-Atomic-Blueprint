@@ -17,6 +17,7 @@ mkdir -p /usr/local/lib/ventoy
 cp -r /tmp/ventoy-${VENTOY_VERSION}/* /usr/local/lib/ventoy/
 
 # Create wrapper scripts that cd to correct directory
+mkdir -p /usr/local/bin
 cat > /usr/local/bin/ventoy << 'EOF'
 #!/bin/bash
 cd /usr/local/lib/ventoy && sudo ./Ventoy2Disk.sh "$@"

@@ -1,0 +1,14 @@
+[Unit]
+Description=Setup user npm packages (Claude Code)
+# Only run if claude binary does not exist yet
+ConditionPathExists=!%h/.local/share/npm-global/bin/claude
+
+[Service]
+Type=oneshot
+ExecStartPre=/usr/bin/mkdir -p %h/.local/share/npm-global
+ExecStartPre=/usr/bin/npm config set prefix %h/.local/share/npm-global
+ExecStart=/usr/bin/npm install -g @anthropic-ai/claude-code
+RemainAfterExit=yes
+
+[Install]
+WantedBy=default.target
