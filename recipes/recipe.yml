@@ -18,9 +18,6 @@ modules:
         destination: / # copies files/system/* (* means everything inside it) into your image's root folder /
 
   - type: dnf
-    # repos:
-    #   copr:
-    #     - atim/starship
     install:
       packages:
         # container dev environments
@@ -50,6 +47,7 @@ modules:
   - type: script
     scripts:
       - install-icloudpd.sh
+      - install-ventoy.sh
 
   - type: default-flatpaks
     # Two configurations: one for system-wide apps, one to enable user-scope Flathub
