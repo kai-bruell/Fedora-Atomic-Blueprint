@@ -63,6 +63,8 @@ modules:
           - org.mozilla.firefox
           - org.gnome.Loupe
           - org.gimp.GIMP
+          - org.libreoffice.LibreOffice
+          - org.audacityteam.Audacity
       # user = ~/.local/share/flatpak, per-user apps, user can install without root
       - scope: user
         # no install list here = just enables Flathub repo for user-installed apps
