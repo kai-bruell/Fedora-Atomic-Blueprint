@@ -43,6 +43,7 @@ modules:
         - simple-scan
         - sane-backends-drivers-scanners
         - ydotool
+        - cifs-utils
     remove:
       packages:
         # removing firefox RPM in favor of the flatpak (faster security updates)
