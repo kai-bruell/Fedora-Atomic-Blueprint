@@ -44,7 +44,7 @@ modules:
         - sane-backends-drivers-scanners
         - ydotool
         - cifs-utils
-        - snapd
+        - fuse-sshfs
     remove:
       packages:
         # removing firefox RPM in favor of the flatpak (faster security updates)
